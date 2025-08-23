@@ -1,0 +1,54 @@
+name: API Tests
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  api-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Node.js (có thể cần cho project backend)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # Step 3: Cài dependencies backend (nếu cần chạy server trong CI)
+      - name: Install backend dependencies
+        run: |
+          cd sprint5-with-bugs
+          npm install
+
+      # Step 4: Start backend server (chạy ngầm)
+      - name: Start backend server
+        run: |
+          cd sprint5-with-bugs
+          nohup npm start &
+        continue-on-error: false
+
+      # Step 5: Cài Newman
+      - name: Install Newman
+        run: npm install -g newman
+
+      # Step 6: Run API Tests
+      - name: Run Postman Tests
+        run: |
+          newman run tests/sign-in.postman_collection.json \
+            -e tests/toolshop_env.postman_environment.json \
+            --reporters cli,junit \
+            --reporter-junit-export results.xml
+
+      # Step 7: Upload Test Report
+      - name: Upload report
+        uses: actions/upload-artifact@v3
+        with:
+          name: api-test-report
+          path: results.xml

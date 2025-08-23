@@ -1,0 +1,200 @@
+[
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "user"
+  },
+  {
+    "email": "customer2@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "user"
+  },
+  {
+    "email": "customer3@practicesoftwaretesting.com",
+    "password": "pass123",
+    "expectedResult": "success",
+    "role": "user"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "wrongpass",
+    "expectedResult": "fail",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "Welcome01",
+    "expectedResult": "fail",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "short12",
+    "expectedResult": "validation-fail",
+    "role": "admin"
+  },
+  {
+    "email": "adminpracticesoftwaretesting.com",
+    "password": "welcome01",
+    "expectedResult": "validation-fail",
+    "role": "invalid"
+  },
+  {
+    "email": "",
+    "password": "welcome01",
+    "expectedResult": "validation-fail",
+    "role": "invalid"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "",
+    "expectedResult": "validation-fail",
+    "role": "admin"
+  },
+  {
+    "email": "user@mail.c",
+    "password": "welcome01",
+    "expectedResult": "validation-fail",
+    "role": "user"
+  },
+  {
+    "email": "user@mail.toolss",
+    "password": "welcome01",
+    "expectedResult": "validation-fail",
+    "role": "user"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "12345678",
+    "expectedResult": "fail",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "123456789",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "expectedResult": "validation-fail",
+    "role": "admin"
+  },
+  {
+    "email": " admin@practicesoftwaretesting.com ",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "pass word",
+    "expectedResult": "fail",
+    "role": "admin"
+  },
+  {
+    "email": "user@",
+    "password": "welcome01",
+    "expectedResult": "validation-fail",
+    "role": "invalid"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "' OR 'a'='a",
+    "expectedResult": "fail",
+    "role": "admin"
+  },
+  {
+    "email": "' OR '1'='1",
+    "password": "welcome01",
+    "expectedResult": "fail",
+    "role": "invalid"
+  },
+  {
+    "email": "ghost@unknown.com",
+    "password": "whatever123",
+    "expectedResult": "fail",
+    "role": "invalid"
+  },
+  {
+    "email": "Admin@PRACTICESOFTWARETESTING.COM",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "user+test@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "user"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "welcome!@#",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "pass\nword01",
+    "expectedResult": "validation-fail",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "pāsswørd123",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "user😊@mail.com",
+    "password": "welcome01",
+    "expectedResult": "validation-fail",
+    "role": "invalid"
+  },
+  {
+    "email": "john.doe@sub.practice.com",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "user"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "welcome_01",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "ADMIN@PRACTICESOFTWARETESTING.COM",
+    "password": "welcome01",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "admin@practicesoftwaretesting.com",
+    "password": "password123",
+    "expectedResult": "success",
+    "role": "admin"
+  },
+  {
+    "email": "user@mailinator.com",
+    "password": "welcome01",
+    "expectedResult": "fail",
+    "role": "invalid"
+  }
+]

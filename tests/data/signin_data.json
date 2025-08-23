@@ -1,0 +1,22 @@
+[
+    {
+        "email": "admin@practicesoftwaretesting.com",
+        "password": "welcome01"
+    },
+    {
+        "email": "customer@practicesoftwaretesting.com",
+        "password": "welcome01"
+    },
+    {
+        "email": "customer2@practicesoftwaretesting.com",
+        "password": "welcome01"
+    },
+    {
+        "email": "wronguser@test.com",
+        "password": "welcome01"
+    },
+    {
+        "email": "admin@practicesoftwaretesting.com",
+        "password": "wrongpass"
+    }
+]
