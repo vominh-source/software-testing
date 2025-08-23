@@ -15,19 +15,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Setup Node.js (có thể cần cho project backend)
+      # Step 2: Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      # Step 3: Cài dependencies backend (nếu cần chạy server trong CI)
+      # Step 3: Cài dependencies backend
       - name: Install backend dependencies
         run: |
           cd sprint5-with-bugs
           npm install
 
-      # Step 4: Start backend server (chạy ngầm)
+      # Step 4: Start backend server (ngầm)
       - name: Start backend server
         run: |
           cd sprint5-with-bugs
@@ -38,17 +38,18 @@ jobs:
       - name: Install Newman
         run: npm install -g newman
 
-      # Step 6: Run API Tests
+      # Step 6: Run Postman Tests với data
       - name: Run Postman Tests
         run: |
           newman run tests/sign-in.postman_collection.json \
             -e tests/toolshop_env.postman_environment.json \
+            --iteration-data tests/data/signin_data.json \
             --reporters cli,junit \
             --reporter-junit-export results.xml
 
       # Step 7: Upload Test Report
       - name: Upload report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: api-test-report
           path: results.xml
