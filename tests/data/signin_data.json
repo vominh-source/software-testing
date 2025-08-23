@@ -1,22 +1,32 @@
 [
-    {
-        "email": "admin@practicesoftwaretesting.com",
-        "password": "welcome01"
-    },
-    {
-        "email": "customer@practicesoftwaretesting.com",
-        "password": "welcome01"
-    },
-    {
-        "email": "customer2@practicesoftwaretesting.com",
-        "password": "welcome01"
-    },
-    {
-        "email": "wronguser@test.com",
-        "password": "welcome01"
-    },
-    {
-        "email": "admin@practicesoftwaretesting.com",
-        "password": "wrongpass"
-    }
+  { "email": "admin@practicesoftwaretesting.com", "password": "welcome01" },
+  { "email": "customer@practicesoftwaretesting.com", "password": "welcome01" },
+  { "email": "customer2@practicesoftwaretesting.com", "password": "welcome01" },
+  { "email": "customer3@practicesoftwaretesting.com", "password": "pass123" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "wrongpass" },
+  { "email": "customer@practicesoftwaretesting.com", "password": "wrongpass" },
+  { "email": "notexist@test.com", "password": "welcome01" },
+  { "email": "admintest.com", "password": "welcome01" },
+  { "email": "admin@", "password": "welcome01" },
+  { "email": "admin @test.com", "password": "welcome01" },
+  { "email": "", "password": "welcome01" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "welcome" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "welcome0" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "1234567890123456789012345678901234567890" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "12345678901234567890123456789012345678901" },
+  { "email": "Admin@practicesoftwaretesting.com", "password": "welcome01" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "Welcome01" },
+  { "email": "'admin@test.com' OR '1'='1\"", "password": "welcome01" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "' OR '1'='1\"" },
+  { "email": "admin!@practicesoftwaretesting.com", "password": "welcome01" },
+  { "email": " admin@practicesoftwaretesting.com ", "password": "welcome01" },
+  { "email": "admin@practicesoftwaretesting.com", "password": " welcome01 " },
+  { "email": "ADMIN@PRACTICESOFTWARETESTING.COM", "password": "welcome01" },
+  { "email": "RepeatWrongLogin1@test.com", "password": "wrongpass" },
+  { "email": "", "password": "welcome01" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "" },
+  { "email": null, "password": null },
+  { "email": "", "password": "" },
+  { "email": "admin@practicesoftwaretesting.com", "password": "welcome01" }
 ]
