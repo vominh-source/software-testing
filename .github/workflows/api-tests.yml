@@ -41,8 +41,7 @@ jobs:
       # Step 6: Run Postman Tests với data
       - name: Run Postman Tests
         run: |
-          newman run tests/sign-in.postman_collection.json \
-            -e tests/toolshop_env.postman_environment.json \
+          newman run tests/HW7-SignIn.postman_collection.json \
             --iteration-data tests/data/signin_data.json \
             --reporters cli,junit \
             --reporter-junit-export results.xml
