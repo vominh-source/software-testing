@@ -21,24 +21,25 @@ jobs:
         with:
           node-version: 18
 
-      # Step 3: Cài dependencies backend
+      # Step 3: Install backend dependencies
       - name: Install backend dependencies
         run: |
           cd sprint5-with-bugs
           npm install
 
-      # Step 4: Start backend server (ngầm)
+      # Step 4: Start backend server in background and wait until ready
       - name: Start backend server
         run: |
           cd sprint5-with-bugs
           nohup npm start &
-        continue-on-error: false
+          # Chờ server lắng nghe cổng 8091
+          npx wait-on http://localhost:8091
 
-      # Step 5: Cài Newman
+      # Step 5: Install Newman
       - name: Install Newman
         run: npm install -g newman
 
-      # Step 6: Run Postman Tests với data
+      # Step 6: Run Postman Tests với data JSON
       - name: Run Postman Tests
         run: |
           newman run tests/HW7-SignIn.postman_collection.json \
