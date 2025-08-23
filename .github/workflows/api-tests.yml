@@ -47,8 +47,8 @@ jobs:
       # Step 7: Run Sign In API Tests with JSON data
       - name: Run Sign In API Tests
         run: |
-          newman run sprint5-with-bugs/tests/HW7-SignIn.postman_collection.json \
-            --iteration-data sprint5-with-bugs/tests/data/signin_data.json \
+          newman tests/HW7-SignIn.postman_collection.json \
+            --iteration-data tests/data/signin_data.json \
             --reporters cli,junit \
             --reporter-junit-export results.xml
 
