@@ -30,7 +30,7 @@ jobs:
       # Step 4: Start backend server in background and wait until ready
       - name: Start backend server with Docker Compose
         run: |
-          docker compose -f sprint5-with-bugs/docker-compose.yml up -d
+          docker compose -f docker-compose.yml up -d
           npx wait-on http://localhost:8091
       # Step 5: Install Newman
       - name: Install Newman
