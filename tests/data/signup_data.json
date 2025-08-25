@@ -1,0 +1,413 @@
+[
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user1@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaa",
+  "last_name": "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+  "dob": "1995-05-15",
+  "address": "123 Nguyen Trai",
+  "postcode": "70000",
+  "city": "Ha Noi",
+  "country": "VN",
+  "state": "Ha Noi",
+  "phone": "0987654321",
+  "email": "user2@test.com",
+  "password": "PasswordMaxLen1234567890!!!"
+},
+{
+  "first_name": "",
+  "last_name": "Minh",
+  "dob": "2000-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user3@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "",
+  "dob": "2000-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user4@test.com",
+  "password": "StrongPass123!"
+},
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user5test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user6@",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user7@test.com",
+  "password": "Pass123"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user8@test.com",
+  "password": "Pass1234"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "23-03-2004",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user9@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2100-01-01",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user10@test.com",
+  "password": "StrongPass123!"
+},
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user11@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user12@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user13@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "ABCD",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user14@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user15@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user16@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "XYZ",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user17@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "",
+  "phone": "0912345678",
+  "email": "user18@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "abcdefg",
+  "email": "user19@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "",
+  "email": "user20@test.com",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user@",
+  "password": "StrongPass123!"
+},
+
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "usertest.com",
+  "password": "StrongPass123!"
+},
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user24@test.com",
+  "password": "12345"
+},
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user25@test.com",
+  "password": "12345678901234567890123456789012345678901"
+},
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user26@test.com",
+  "password": ""
+},
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user27@test.com",
+  "password": "12345678"
+},
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user28@test.com",
+  "password": "abcdefgh"
+}
+,
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user29@test.com",
+  "password": "strongpass123!"
+}
+,
+{
+  "first_name": "Vo",
+  "last_name": "Minh",
+  "dob": "2000-05-12",
+  "address": "433/3 Nguyen Van Luong",
+  "postcode": "2123",
+  "city": "Ho Chi Minh",
+  "country": "US",
+  "state": "California",
+  "phone": "0912345678",
+  "email": "user30@test.com",
+  "password": "StrongPass123"
+}]
+
