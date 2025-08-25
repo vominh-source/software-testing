@@ -1,8 +1,9 @@
-name: Run Playwright Tests 🎭
+# DISABLED - Playwright tests temporarily disabled
+# name: Run Playwright Tests 🎭
 
-on:
-  push:
-    branches: [ main ]
+# on:
+#   push:
+#     branches: [ main ]
 
 concurrency: production_environment
 

@@ -45,10 +45,6 @@ jobs:
       - name: Install Newman
         run: npm install -g newman
 
-      # Step 6: Install Newman
-      - name: Install Newman
-        run: npm install -g newman
-
       # Step 7: Run Sign In API Tests (Console Output Only)
       - name: 🔐 Sign In API Tests
         run: |
