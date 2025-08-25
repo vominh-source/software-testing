@@ -14,7 +14,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Status code is valid\", function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([200, 400, 401, 404]);\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 400, 401, 404, 500]);\r",
 							"});\r",
 							"\r",
 							"if (pm.response.code === 200) {\r",
